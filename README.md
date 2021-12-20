@@ -1,12 +1,12 @@
-# Mini DICOM Viewer
-###IMPORTANT: The project is a demo and not a real DICOM Viewer
+# Mini DICOM Viewer 
+#### IMPORTANT: The project is a demo and not a real DICOM Viewer
 #
 
-- ###Backend
+- ### Backend
 
 API with GraphQL, Node.js, and Sequelize
 
-- ###Frontend
+- ### Frontend
 
 Frontend with ReactJS and MaterialUI
 #

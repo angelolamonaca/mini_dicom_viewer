@@ -1,5 +1,5 @@
 # Mini DICOM Viewer
-####IMPORTANT: The project is a demo and not a real DICOM Viewer
+###IMPORTANT: The project is a demo and not a real DICOM Viewer
 #
 
 - Backend

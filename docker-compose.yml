@@ -13,7 +13,10 @@ services:
       - default
 
   backend:
-    build: .
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    image: "angelo_lamonaca/mini-dicom-viewer-backend"
     ports:
       - "3301:3301"
     depends_on:
@@ -24,9 +27,22 @@ services:
 
   fixtures:
     build: ./fixtures
+    image: "angelo_lamonaca/mini-dicom-viewer-fixtures"
     depends_on:
       - database
     command: bash -c "./wait-for-it.sh backend:3301 && sleep 15 && python main.py"
+    networks:
+      - default
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./Dockerfile
+    image: "angelo_lamonaca/mini-dicom-viewer-frontend"
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
     networks:
       - default
 

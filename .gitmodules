@@ -1,0 +1,4 @@
+[submodule "frontend"]
+	url = https://github.com/angelolamonaca/mini_dicom_viewer-react_frontend.git
+[submodule "backend"]
+	url = https://github.com/angelolamonaca/mini_dicom_viewer-nodejs_backend.git

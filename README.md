@@ -22,9 +22,16 @@ To view these images on your computer, you will have to use a DICOM viewer, whic
 
 ## About The Project
 
-The application offers two interfaces for viewing persistent data on the database.
+* Frontend Git Submodule: [mini_dicom_viewer-react_frontend](https://github.com/angelolamonaca/mini_dicom_viewer-react_frontend)
+* Backend Git Submodule: [mini_dicom_viewer-nodejs_backend](https://github.com/angelolamonaca/mini_dicom_viewer-nodejs_backend)
 
-* Explorer
+<br/>
+
+The application offers two interfaces to interact with persistent data on the database, "Explorer View" and "Search Table".
+
+<br/>
+
+* Explorer View
   
 [![Explorer Studies Screen Shot][explorer-studies]](https://github.com/angelolamonaca/mini_dicom_viewer-react_frontend)
   
@@ -32,7 +39,9 @@ The application offers two interfaces for viewing persistent data on the databas
   
 [![Explorer Files Screen Shot][explorer-files]](https://github.com/angelolamonaca/mini_dicom_viewer-react_frontend)
 
-* Search
+<br/>
+
+* Search Table
 
 [![Search Screen Shot][search]](https://github.com/angelolamonaca/mini_dicom_viewer-react_frontend)
 
@@ -68,11 +77,17 @@ The application offers two interfaces for viewing persistent data on the databas
 
 - ### Backend
 
-API with GraphQL, Node.js, and Sequelize
+  - Docker: https://www.docker.com/resources/what-container
+  - MySQL: https://hub.docker.com/_/mysql
+  - NodeJS: https://hub.docker.com/_/node
+  - QuerySystem for DB: https://sequelize.org/
+  - API calling: https://graphql.org/
 
 - ### Frontend
 
-Frontend with ReactJS and MaterialUI
+  - Web Interface: Material-UI https://mui.com/
+  - Web Interface: ReacJS https://reactjs.org/
+  - Web Query API: https://github.com/axios/axios
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

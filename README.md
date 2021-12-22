@@ -86,7 +86,7 @@ The application offers two interfaces to interact with persistent data on the da
 - ### Frontend
 
   - Web Interface: Material-UI https://mui.com/
-  - Web Interface: ReacJS https://reactjs.org/
+  - Web Interface: ReactJS https://reactjs.org/
   - Web Query API: https://github.com/axios/axios
 
 <p align="right">(<a href="#top">back to top</a>)</p>

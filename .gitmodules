@@ -1,4 +1,6 @@
 [submodule "frontend"]
+	path = frontend
 	url = https://github.com/angelolamonaca/mini_dicom_viewer-react_frontend
 [submodule "backend"]
+	path = backend
 	url = https://github.com/angelolamonaca/mini_dicom_viewer-nodejs_backend
